@@ -6,6 +6,10 @@ defineOptions({
 })
 
 // code here ...
+
+const download = () => {
+  window.location.href = 'https://cloud.alongw.cn/f/Maefq/Jvav.exe'
+}
 </script>
 <template>
   <div class="main">
@@ -13,7 +17,7 @@ defineOptions({
     <div class="download">
       <div class="left">
         <h2>为桌面应用程序获取 Jvav</h2>
-        <button>下载 Jvav</button>
+        <button @click="download()">下载 Jvav</button>
         <div class="info">
           <a href="javascript:;">Jvav 是什么？</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:;"
             >卸载帮助</a
